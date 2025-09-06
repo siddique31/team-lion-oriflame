@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Lion By Leader Siddique Nawab</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff0f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #ffb6c1, #ffd1dc, #ffe5b4);
+      text-align: center;
+      padding: 60px 20px;
+      color: white;
+      position: relative;
+    }
+    header h1 {
+      font-size: 3em;
+      font-weight: bold;
+      background: linear-gradient(90deg, #ff69b4, #ff8c00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+    }
+    header h1::before {
+      content: "🦁 ";
+    }
+    header p {
+      margin-top: 10px;
+      font-style: italic;
+      font-size: 1.2em;
+      color: #f5f5f5;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    .container h2 {
+      text-align: center;
+      color: #ff69b4;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+    input:focus, select:focus {
+      border-color: #ff69b4;
+      outline: none;
+    }
+    .btn {
+      display: inline-block;
+      width: 100%;
+      background: linear-gradient(90deg, #ff69b4, #ff8c00);
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      opacity: 0.9;
+    }
+    .contact {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .contact a {
+      display: inline-block;
+      margin: 5px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      background: #25D366;
+    }
+    .contact a.email {
+      background: #0072c6;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #ffe5ec;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Team Lion</h1>
+    <p>By Leader Siddique Nawab</p>
+  </header>
+
+  <div class="container">
+    <h2>Join My Oriflame Team</h2>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age" required>
+
+      <label for="gender">Select Gender</label>
+      <select id="gender" name="gender" required>
+        <option value="">-- Select --</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+
+      <label for="city">City</label>
+      <input type="text" id="city" name="city" required>
+
+      <label for="whatsapp">WhatsApp Number</label>
+      <input type="tel" id="whatsapp" name="whatsapp" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <button type="submit" class="btn">Submit Application</button>
+    </form>
+
+    <div class="contact">
+      <a href="https://wa.me/923017016801" target="_blank">📲 WhatsApp</a>
+      <a href="mailto:hafizsiddique531@gmail.com" class="email">📧 Email</a>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Team Lion Oriflame | By Leader Siddique Nawab
+  </footer>
+</body>
+</html>
