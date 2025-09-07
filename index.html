@@ -80,23 +80,6 @@
     .btn:hover {
       opacity: 0.9;
     }
-    .contact {
-      text-align: center;
-      margin-top: 30px;
-    }
-    .contact a {
-      display: inline-block;
-      margin: 5px;
-      padding: 10px 20px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-      color: white;
-      background: #25D366;
-    }
-    .contact a.email {
-      background: #0072c6;
-    }
     footer {
       text-align: center;
       padding: 20px;
@@ -115,36 +98,35 @@
 
   <div class="container">
     <h2>Join My Oriflame Team</h2>
-    <form>
+    <form action="https://formsubmit.co/hafizsiddique531@gmail.com" method="POST">
+      <!-- optional security -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+
       <label for="name">Full Name</label>
-      <input type="text" id="name" name="name" required>
+      <input type="text" id="name" name="Full Name" required>
 
       <label for="age">Age</label>
-      <input type="number" id="age" name="age" required>
+      <input type="number" id="age" name="Age" required>
 
       <label for="gender">Select Gender</label>
-      <select id="gender" name="gender" required>
+      <select id="gender" name="Gender" required>
         <option value="">-- Select --</option>
-        <option value="male">Male</option>
-        <option value="female">Female</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
       </select>
 
       <label for="city">City</label>
-      <input type="text" id="city" name="city" required>
+      <input type="text" id="city" name="City" required>
 
       <label for="whatsapp">WhatsApp Number</label>
-      <input type="tel" id="whatsapp" name="whatsapp" required>
+      <input type="tel" id="whatsapp" name="WhatsApp Number" required>
 
       <label for="email">Email Address</label>
-      <input type="email" id="email" name="email" required>
+      <input type="email" id="email" name="Email" required>
 
       <button type="submit" class="btn">Submit Application</button>
     </form>
-
-    <div class="contact">
-      <a href="https://wa.me/923017016801" target="_blank">📲 WhatsApp</a>
-      <a href="mailto:hafizsiddique531@gmail.com" class="email">📧 Email</a>
-    </div>
   </div>
 
   <footer>
